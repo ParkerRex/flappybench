@@ -22,12 +22,13 @@ A simple Flappy Bird clone built with Pygame for benchmarking purposes (not actu
    ```
 
 3. Install dependencies:
+
    ```bash
    pip install -r requirements.txt
    ```
 
 4. Run the game:
-   ```bash 
+   ```bash
    python main.py
    ```
 
@@ -37,16 +38,16 @@ This is a minimal Flappy Bird implementation used for benchmarking, inspired by 
 
 ## Thinking Times
 
-| Version                                          | Thought Time         |
-|--------------------------------------------------|----------------------|
-| o1                                               | 23 seconds           |
-| o3-mini-high                                     | 1 minute 52 seconds  |
-| o3-mini                                          | 58 seconds           |
-| gemini 2.0 flash thinking experimental 01-21     | 10.4 seconds         |
+| Version                                      | Thought Time        |
+| -------------------------------------------- | ------------------- |
+| o1                                           | 23 seconds          |
+| o3-mini-high                                 | 1 minute 52 seconds |
+| o3-mini                                      | 58 seconds          |
+| gemini 2.0 flash thinking experimental 01-21 | 10.4 seconds        |
 
+Here's the prompt:
 
-Here's the prompt: 
-``` markdown 
+```markdown
 You must use pygame.
 
 The background color should be randomly chosen and is a light shade. Start with a light blue color.
@@ -64,3 +65,15 @@ Make randomly spaced pipes with enough space. Color them randomly as dark green 
 When you lose, show the best score. Make the text inside the screen. Pressing q or Esc will quit the game. Restarting is pressing SPACE again.
 ```
 
+gemini-2-flash-thinking D
+o1 F
+o3-mini D
+o3-mini-high B
+
+## Test April 23
+
+- sonnet 3.7 thinking B+
+- gemini 2.5 Z
+- grok3 D
+- o4-mini F
+- o4-mini-high G
